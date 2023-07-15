@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    
+}
+
+.main {
+    height: auto;
+    width: 100%;
+}
+
+.name {
+    color: white;
+    display: inline;
+    align-items: center;
+    text-align: center;
+}
+
+/* */
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(100px, auto);
+    grid-auto-rows: minmax(150px, auto);
+    grid-template-areas: 
+        "background background"
+        "background background"
+        "background background"
+        "background background"
+        "background background"
+        "About ButtonA"
+        "Projects ButtonP"
+}
+.Background {
+    grid-area: background;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 500%;
+    color: white;
+    
+}
+.AboutMe {
+    grid-area: About;
+    margin-left: 1.5rem;
+    font-size: 150%;
+    color: white;
+}
+.button1 {
+    grid-area: ButtonA;
+    border-radius: 4px;
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+.Projects {
+    grid-area: Projects;
+    font-size: 150%;
+    color: white;
+    margin-top: 7rem;
+    margin-left: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.P1image {
+    margin-top: 2rem;
+}
+.button2 {
+    grid-area: ButtonB;
+    border-radius: 4px;
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10rem;
+    margin-left: 4rem;
+}
+
+.titleA {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    color: white;
+}
+
+/* Home page first sub heading */
+
+/* .subA {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.subAP1 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.subAH1 {
+    margin-left: 2rem;
+    font-size: x-large;
+} */
+
+/* .aboutB, .projectsB {
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    color: black;
+    margin-left: 70%;
+    margin-right: 30%;
+    margin-top: -7rem;
+    display: inline-block;
+}  */
+
+.intro {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    color: white;
+}
+
+
+/* .welcome {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    top: 120px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+} */
+
+
+.nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    margin-top: 0;
+}
+
+.site-title {
+    font-size: 2rem;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav li.active {
+    background-color: #555;
+}
+
+.nav li.hover {
+    background-color: #777;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
