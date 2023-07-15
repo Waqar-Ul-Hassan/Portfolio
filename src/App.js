@@ -6,7 +6,7 @@ import { Route, Routes } from "react-router-dom"
 import Main from "./Background/Main"
 
 function App() {
-
+// banana boat
   return (
     <>
       <Navbar />
