@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
 
 body {
@@ -65,6 +65,11 @@ body {
     font-size: 16px;
     margin-top: 2rem;
     margin-left: 4rem;
+    margin-right: 1rem;
+}
+.button1:hover, .button2:hover{
+    color:grey;
+    background-color: aliceblue;
 }
 .Projects {
     grid-area: Projects;
@@ -104,37 +109,6 @@ body {
     color: white;
 }
 
-/* Home page first sub heading */
-
-/* .subA {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-
-}
-
-.subAP1 {
-    margin-left: 2rem;
-    margin-top: 2rem;
-}
-
-.subAH1 {
-    margin-left: 2rem;
-    font-size: x-large;
-} */
-
-/* .aboutB, .projectsB {
-    width: 100px;
-    height: 50px;
-    align-items: center;
-    color: black;
-    margin-left: 70%;
-    margin-right: 30%;
-    margin-top: -7rem;
-    display: inline-block;
-}  */
-
 .intro {
     height: 100%;
     width: 100%;
@@ -147,27 +121,15 @@ body {
     color: white;
 }
 
-
-/* .welcome {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    top: 120px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: white;
-} */
-
-
 .nav {
-    background-color: #333;
+    background-color: #000000;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
     padding: 0 1rem;
+    padding-bottom: 0.5rem;
     margin-top: 0;
 }
 
@@ -176,7 +138,8 @@ body {
 }
 
 .nav ul {
-    padding: 0;
+    padding: 1rem;
+    padding-right: 2rem;
     margin: 0;
     list-style: none;
     display: flex;
@@ -187,13 +150,16 @@ body {
     color: inherit;
     text-decoration: none;
 }
+nav a:hover{
+    color: aquamarine;
+}
 
 .nav li.active {
-    background-color: #555;
+    /* background-color: #555; */
 }
 
 .nav li.hover {
-    background-color: #777;
+    /* background-color: #777; */
 }
 
 video {
