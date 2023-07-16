@@ -1,5 +1,5 @@
 {
-  "homepage": "http://waqar-ul-hassan.github.io/Portfolio",
+  "homepage": "http://Waqar-Ul-Hassan.github.io/Portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -42,5 +42,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "s": "^1.0.0"
   }
 }
