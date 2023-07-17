@@ -151,7 +151,18 @@ body {
     text-decoration: none;
 }
 nav a:hover{
-    color: aquamarine;
+    color: grey;
+}
+
+.navProj, .navAb, .navRes {
+    color: inherit;
+    padding: 0.5rem;
+}
+
+.navCont {
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
 }
 
 .nav li.active {

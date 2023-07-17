@@ -1,5 +1,5 @@
 import React from 'react'
-import videoBg from '../BackAssets/Background.mp4'
+import videoBg from '../BackAssets/NameBack.mp4'
 import { Link } from 'react-router-dom'
 
 const Main = () => {

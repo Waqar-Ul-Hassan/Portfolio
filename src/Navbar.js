@@ -7,8 +7,10 @@ export default function Navbar() {
         Waqar Ul-Hassan
       </Link>
       <ul>
-        <CustomLink to="/projects">Projects</CustomLink>
-        <CustomLink to="/about">About</CustomLink>
+        <CustomLink to="/projects"><div className="navProj">Projects</div></CustomLink>
+        <CustomLink to="/about"><div className="navAb">About</div></CustomLink>
+        <CustomLink to="/resume"><div className="navRes">Resume</div></CustomLink>
+        <CustomLink to="/contact"><div className="navCont">Contact</div></CustomLink>
       </ul>
     </nav>
   )

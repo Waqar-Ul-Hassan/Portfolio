@@ -5,7 +5,7 @@ export default function Home() {
         return <>
 
         <div class="grid-container">
-                <div class="Background">Waqar Ul-Hassan</div>
+                <div class="Background"></div>
                 <div class="AboutMe">
                         <h1>About Me <hr></hr></h1>
                         <h3>My name is Waqar! Currently I am in Software Engineering II at McMaster University. <br/>
