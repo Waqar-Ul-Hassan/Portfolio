@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.750bf7df.css",
+    "main.css": "/static/css/main.2217fd20.css",
     "main.js": "/static/js/main.640cc66e.js",
     "static/media/NameBack.mp4": "/static/media/NameBack.f5c380d0a8763e166fe9.mp4",
     "static/media/WaqarPic.png": "/static/media/WaqarPic.d1b92838b10efcce4ef6.png",
@@ -8,11 +8,11 @@
     "static/media/Modal2Back.png": "/static/media/Modal2Back.20d8d3748d89dd817c68.png",
     "static/media/pPic.png": "/static/media/pPic.769aae5dcdb2eb295c2e.png",
     "index.html": "/index.html",
-    "main.750bf7df.css.map": "/static/css/main.750bf7df.css.map",
+    "main.2217fd20.css.map": "/static/css/main.2217fd20.css.map",
     "main.640cc66e.js.map": "/static/js/main.640cc66e.js.map"
   },
   "entrypoints": [
-    "static/css/main.750bf7df.css",
+    "static/css/main.2217fd20.css",
     "static/js/main.640cc66e.js"
   ]
 }
