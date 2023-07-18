@@ -1,0 +1,116 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    left: 0;;
+}
+
+.modalContainer {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.openModalBtn1:hover {
+    color: grey;
+}
+
+.titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.Modal1Picture {
+    height: 300px;
+    width: auto;
+}
+
+.modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#cancelBtn {
+    background-color: crimson;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: minmax(100px, auto);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+        "Mod1" "Mod1"
+}
+
+.Modal1Back {
+    grid-area: Mod1;
+    height: 250px;
+    width: auto;
+    opacity: 60%;
+    margin-top: 2rem;
+}
+
+.openModalBtn1 {
+    grid-area: Mod1;
+    z-index: 2;
+    border-radius: 4px;
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 10px 90px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+    /* margin-top: -2.5rem; */
+    box-shadow: rgba(48, 46, 46, 0.605) 0px 5px 15px;
+    ;
+}

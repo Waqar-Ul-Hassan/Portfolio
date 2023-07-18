@@ -9,9 +9,11 @@ export default function Navbar() {
       <ul>
         <CustomLink to="/projects"><div className="navProj">Projects</div></CustomLink>
         <CustomLink to="/about"><div className="navAb">About</div></CustomLink>
-        <CustomLink to="/resume"><div className="navRes">Resume</div></CustomLink>
+        {/* <a className="navResume" href="//Ul-Hassan_Waqar_June_2023_Resume.pdf"><button>Resume</button></a> */}
+        {/* <CustomLink to="/resume"><div className="navRes">Resume</div></CustomLink> */}
         <CustomLink to="/contact"><div className="navCont">Contact</div></CustomLink>
       </ul>
+      
     </nav>
   )
 }

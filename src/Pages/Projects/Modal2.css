@@ -1,0 +1,106 @@
+.modalBackground2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    ;
+}
+
+.modalContainer2 {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.modalContainer2 .title2 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.openModalBtn2:hover {
+    color: grey;
+}
+
+.titleCloseBtn2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn2 button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modalContainer2 .body2 {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.Modal2Picture {
+    height: 300px;
+    width: auto;
+}
+
+.modalContainer2 .footer2 {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer2 .footer2 button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#cancelBtn2 {
+    background-color: crimson;
+}
+
+.Modal2Back {
+    height: 250px;
+    width: auto;
+    opacity: 70%;
+    margin-top: 2rem;
+}
+
+.openModalBtn2 {
+    z-index: 2;
+    border-radius: 4px;
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 10px 68px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+    /* margin-top: -2.5rem; */
+    box-shadow: rgba(48, 46, 46, 0.605) 0px 5px 15px;
+    ;
+}
