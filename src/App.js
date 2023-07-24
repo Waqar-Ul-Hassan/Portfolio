@@ -3,12 +3,11 @@ import Projects from "./Pages/Projects"
 import Home from "./Pages/Home"
 import About from "./Pages/About"
 import Resume from "./Pages/Resume"
-import Contact from "./Pages/Contact"
+import Experience from "./Pages/Experience"
 import { Route, Routes } from "react-router-dom"
-
+import "./styles.css";
 
 function App() {
-// banana boat
   return (
     <>
       <Navbar />
@@ -18,10 +17,10 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/experience" element={<Experience />} />
         </Routes>
       </div>
-      
+    
     </>
   )
 }
