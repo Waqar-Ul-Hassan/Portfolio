@@ -42,7 +42,6 @@
     background-color: transparent;
     border: none;
     font-size: 25px;
-    cursor: pointer;
 }
 
 .modalContainer .body {
@@ -74,7 +73,6 @@
     color: white;
     border-radius: 8px;
     font-size: 20px;
-    cursor: pointer;
 }
 
 #cancelBtn {
@@ -110,7 +108,6 @@
     text-decoration: none;
     display: flex;
     font-size: 16px;
-    cursor: pointer;
     /* margin-top: -2.5rem; */
     box-shadow: rgba(48, 46, 46, 0.605) 0px 5px 15px;
     ;

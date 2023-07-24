@@ -93,7 +93,6 @@ body {
     margin-top: 2rem;
     margin-left: 4rem;
     margin-right: 3rem;
-    cursor: pointer;
 }
 .button1:hover, .button2:hover{
     color:grey;
@@ -128,7 +127,6 @@ body {
     font-size: 16px;
     margin-top: 10rem;
     margin-left: 4rem;
-    cursor: pointer;
 }
 
 .titleA {
@@ -218,7 +216,6 @@ nav a:hover{
 .navResume:hover,.navExp:hover,
 .navAb:hover,
 .navProj:hover {
-    cursor: pointer;
     --p: 101%;
     --t: 0.3s;
     color: black;
